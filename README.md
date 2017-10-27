@@ -26,3 +26,8 @@ But the best way is to put the script in a Cron job & set a suitable duration. F
 ```bash
 * * * * * /usr/local/bin/python3 "/Users/admin/Desktop/Python Scripts/WhichWiFi.py" >/Users/admin/Desktop/cronout.log 2>/Users/admin/Desktop/cronerror.log
 ```
+## Screenshot
+
+Here is the script in action!!
+
+<img src="https://github.com/shashank-ssriva/WhichWiFi/blob/master/WhichWiFi.png" height="100" width="250">
