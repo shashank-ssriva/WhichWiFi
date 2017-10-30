@@ -13,7 +13,7 @@ pip3 install pync
 ```
 Afterwards, clone/download my repository.
 ```bash
-https://github.com/shashank-ssriva/WhichWiFi.git
+git clone https://github.com/shashank-ssriva/WhichWiFi.git
 ```
 # Usage
 You can run the script manually by executing...
