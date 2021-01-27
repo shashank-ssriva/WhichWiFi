@@ -2,7 +2,9 @@
 A tiny Python3 script that tells you which WiFi network your Mac is connected to.
 
 # Introduction
-There are times when you have more than 1 WiFi routers and they all differ in their speed/tariff or data-limit. Sometimes you want to connect to router A because it is cheaper & has unlimited data. Sometimes you want to restrict your usage of router B because it has a data cap & also incurs a lot of money if that cap is crossed. Sometimes you want to connect to router B because you need fast speed. Situations may vary. Problem arises when your Mac switches to another router silently if connected router runs out of battery. Mac also tries to connect to other networks if certain settings (*remeber this network or auto-connect*) are enabled. You probably don't want to shop online when your Mac is connected to a free WiFi in a coffee shop, which is not that secure.
+There are times when you have more than 1 WiFi routers and they all differ in their speed/tariff or data-limit. Sometimes you want to connect to **router A** because it is cheaper & has unlimited data. Sometimes you want to restrict your usage of **router B** because it has a data cap & also incurs a lot of money if that cap is crossed. Sometimes you want to connect to **router B** because you need fast speed. Situations may vary. 
+
+The problem arises when your Mac switches to another router silently if the connected router runs out of battery. Mac also tries to connect to other networks if certain settings (*remember this network or auto-connect*) are enabled. You probably don't want to shop online when your Mac is connected to a free WiFi hotspot in a coffee shop, which is not secure.
 
 ``WhichWiFi`` checks the network your Mac is connected to & displays it as a notification. You can put it inside a Cron job so that you continue to receive notifications about currently connected network without human intervention.
 
